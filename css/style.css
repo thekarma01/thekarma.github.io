@@ -1,0 +1,298 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	color:#fff; text-decoration: none;
+	
+}
+.monospace {
+	font-family: "Lucida Console", Courier, monospace;
+	display:inline-block;
+    padding:10px;
+}
+#container{
+	width: 100%;
+	height: 100%;
+	
+}
+.banner{
+	background-image: url("../nen.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 800px;
+	
+	
+}
+.banner h1{
+	text-align: center;
+	padding-top: 350px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 29px;
+
+}
+.header{
+	
+	height: 80px;
+	background-color: #CACACA;
+	
+}
+.logo img{
+	width: 150px;
+	padding-left: 15px;
+	padding-top: 12px;
+	float:left;
+	position: relative;
+	transition: all 1s;
+	z-index: 2;
+}
+.logo img:hover{
+	transform: scale(1.2);
+
+}
+.menu{
+	text-align: center;
+	padding-top: 32px;
+	float:left;
+}	
+
+.menu ul{
+
+	list-style: none;
+	margin:0;
+	padding:0;
+
+
+}
+.menu li{
+	font-size: 20px;
+	display:inline;
+	
+}
+
+.menu{
+/*	background-color: blue;*/
+/*	margin-left: 100px;*/
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+	
+}
+
+.icon{
+	
+/*	background-color: red;*/
+	float:right;
+	margin-right: 50px;
+	z-index: 3;
+	position: relative;
+	
+}
+.fas{
+
+	margin-top: 32px;
+	
+}
+
+
+
+
+.hinh1{
+	background-image: url("../hinh1.jpg");
+	background-size: cover;
+	width: 45%;
+	height: 800px;
+	float:left;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+.hinh2{
+	width: 45%;
+	background-image: url("../hinh2.jpg");
+	background-size: cover;
+	height: 800px;
+	float: right;
+	margin-top: 20px;
+	margin-right: 50px;
+}
+.ss1{
+	width: 100%;
+	height: 840px;
+	background-color: white;
+}
+.p1{
+	text-align: center;
+	margin-top: 350px;
+}
+.text{
+	
+	background-color: #FFFFFF;
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 40px;
+}
+.text h1{
+	color:black;
+	
+}
+
+
+h3{
+	color: black;
+}
+p{
+	color: black;
+}
+
+
+.na1 img{
+	width: 30%;
+	float: left;
+	padding: 0 1.66%;
+}
+.na2 img{
+	width: 30%;
+	float:left;
+	padding: 0 1.66%;
+}
+
+
+.product h3{
+	width: 30%;
+	float:left;
+	padding: 0 1.66%;
+	text-align: center;
+	margin-bottom: 50px;
+
+	
+}
+
+.ss3{
+	width: 100%;
+	height: 100%;
+/*	background-color: darkcyan;*/
+	float: left;
+	text-align: center;
+	
+}
+.bt h2{
+/*	background-color:red;*/
+	width: 150px;
+	height: 40px;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 15px;
+	border: 2px solid black;
+	color: black;
+}
+.bt h1{
+	color: black;
+	margin-top:100px;
+	margin-bottom: 40px;
+}
+.bt img{
+	margin: 0 auto;
+	width: 500px;
+}
+
+h6,h5{
+	color: black;
+	text-transform: uppercase;
+}
+.rd{
+	margin-top: 50px;
+	width: 100%;
+	height: 120px;
+	background-color: #EFEFEF;
+	text-transform: uppercase;
+	
+
+}
+
+p,h2,span,a{
+	color: black;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+
+}
+.gt{
+	margin-top:40px;
+	float: left;
+/*	background: red;*/
+	margin-bottom: 40px;
+
+}
+h2{
+	
+	text-align: center;
+	margin-bottom: 20px;
+}
+span{
+		width: 70%;
+}
+.chu{
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+}
+h2{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: black;
+
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+	color: white;}
+	.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.add{
+	width: 100%;
+	
+}
+.icon2 a{
+	width: 30%;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+.cuoi{
+	width: 100%;
+	height: 80px;
+	border-top: 0.1px solid #2D2D2D;
+}
+.cuoi p{
+	text-align: center;
+	color: #515151;
+	margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
